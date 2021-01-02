@@ -50,7 +50,7 @@ They were imagined by a Generative Adversarial Network
 Karras et al. and Nvidia).
 
 > If you're interested in _how that works_ see this
-> [YouTube video on StylerGANv2](https://www.youtube.com/watch?v=u8qPvzk0AfY)
+> [YouTube video on StyleGANv2](https://www.youtube.com/watch?v=u8qPvzk0AfY)
 
 Thanks to Phil Wang for making thispersondoesnotexist available, and credit
 to **Nvidia** for StyleGAN2! 
