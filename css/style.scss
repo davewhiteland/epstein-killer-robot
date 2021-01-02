@@ -39,6 +39,22 @@ article {
         margin: 0;
         padding:0;
       }
+      ol {
+        list-style: none;
+        margin: 0;
+        padding:0;
+        li {
+          counter-increment:item;
+          position:relative;
+          color:#fff;
+        }
+        li a:before{
+          color:#fff;
+          content: counter(item);
+          margin-left:-1.5rem;
+          padding-right: 0.75rem;
+        };
+      }
       li {
         margin:0;
         padding:0.25rem 0.5rem;
@@ -53,12 +69,12 @@ article {
           padding:0.5em;
           text-decoration:none;
           border:1px solid #999;
-          border-left: 1rem solid #090;
+          border-left: 1.25rem solid #090;
           &:visited{
-            border-left: 1rem solid #999;
+            border-left: 1.25rem solid #999;
           };
           &:hover{
-            border-left: 1rem solid red;
+            border-left: 1.25rem solid red;
             background-color: #ffdddd;
           };
         }
