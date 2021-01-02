@@ -27,7 +27,7 @@ Copyright notice for the text:
 
 ## Acknowledgements
 
-Thanks to [[Richard G. Epstein](https://www.cs.wcupa.edu/epstein/)] for the
+Thanks to [Richard G. Epstein](https://www.cs.wcupa.edu/epstein/) for the
 original scenario and making it available.
 
 The _Case of the Killer Robot_ text used here was taken from
