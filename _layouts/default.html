@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+    <link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}'>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>
+<body>
+  <header>
+    <h1>
+      The case of the Killer Robot
+    </h1>
+    {% include nav.md %}
+  </header>
+
+  <section class="main-content">
+    {{ content }}
+  </section>
+  
+  <footer>
+    {% include nav.md %}
+    <div class="copyright-notice">
+      <p>
+        © 1989, 1994 Richard G. Epstein
+      </p>
+      <p>
+        Permission is granted to copy this material for use in classroom
+        instruction at a college or university. This material may not be copied
+        for any other purpose without express written permission of the author.
+      </p>
+    </div>
+  </footer>
+  
+</body>
+</html>

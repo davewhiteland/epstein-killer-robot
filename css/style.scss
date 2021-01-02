@@ -1,0 +1,297 @@
+---
+# Front matter comment to ensure Jekyll processes file
+---
+
+@import "normalize";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+body {
+  background-color:#eeeeee;
+  line-height:1.4;
+}
+header {
+  border:0;
+  margin:0;
+  padding: 0.5rem 0;
+  background-image:url(../img/background-metal.jpg);
+  background-position:top left;
+  background-size:cover;
+  h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1em rgba(255, 0, 0, 0.5);
+  }
+}
+article {
+  background-color:#ffffff;
+  margin:2em auto 2em auto;
+  max-width:40em;
+  padding:0;
+  img {
+    max-width:100%;
+  }
+  .main {
+    padding: 0 2em 2em 2em;
+    h2, h3 {
+      padding-top:1rem;
+    }
+    .doc-index {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding:0;
+      }
+      li {
+        margin:0;
+        padding:0.25rem 0.5rem;
+        background-color: #eeeeee;
+        &:nth-child(odd) {
+          background-color: #dddddd;
+        }
+        a {
+          color: black;
+          display: inline-block;
+          background:white;
+          padding:0.5em;
+          text-decoration:none;
+          border:1px solid #999;
+          border-left: 1rem solid #090;
+          &:visited{
+            border-left: 1rem solid #999;
+          };
+          &:hover{
+            border-left: 1rem solid red;
+            background-color: #ffdddd;
+          };
+        }
+      }
+    }
+    table {
+      border:1px solid #999;
+      th, td {
+        padding:0.2rem 0.5rem;
+        border:1px solid #999;
+        img {
+          height: 5rem;
+          width:5rem;
+        }
+      }
+    }
+  }
+  &.document {
+    box-shadow: 0.5rem 0.5rem 1rem 0.5rem #888;
+  }
+  &.newspaper {
+    .masthead {
+      background-color:#fff;
+      background-image:url(../img/sentinal-observer.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position:50% 50%;
+      width:100%;
+      padding-bottom:18%;
+    }
+    .masthead-sunday {
+      background-color:#fff;
+      background-image:url(../img/sentinel-observer-mag-hero.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position:top 50%;
+      width:100%;
+      padding-bottom:60%;
+    }
+    .chaser-sunday {
+      background-color:#fff;
+      background-image:url(../img/sentinel-observer-mag-chaser.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position:top 50%;
+      width:100%;
+      padding-bottom:33%;
+      
+    }
+    .byline {
+      border:1px solid #aaa;
+      font-size:1.2rem;
+      img {
+        margin:0.25rem;
+        height:5rem;
+        width:5rem;
+        display:inline-block;
+        vertical-align: middle;
+        filter: grayscale(1);
+      }
+    }
+    figure {
+      margin: 1rem 0 2rem 0;
+      width:100%;
+      img {
+        padding:0;
+        border:0;
+        margin:0 0;
+        max-width:100%;
+      }
+      img.headshot {
+        margin: 0 auto;
+        display:inline-block;
+        width:49%;
+      }
+      figcaption {
+        padding:0.5rem;
+        text-align:center;
+        font-style: italic;
+      }
+    }
+    .main {
+      font-family: serif;
+      margin:0;
+      padding: 0 2em 2em 2em;
+      /* newspaper headline */
+      h1 {
+        font-size:3rem;
+        line-height: 1;;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-transform: uppercase;
+      }
+      .email {
+        padding:0.5rem 1rem;
+        border:1px solid #ccc;
+        background-color:#ffffee;
+        font-family: monospace;
+      }
+      blockquote {
+        border:1px solid #999;
+        margin:1rem;
+        padding:0.25rem 1rem;
+        background-color: #ffffff;
+      }
+      &.magazine {
+        dt {
+          margin:1rem 0 0.3rem 0;
+          padding:0;
+          color: #999;
+          font-weight: bold; 
+          &::after {
+            content: ":";
+          }
+        }
+        dd {
+          padding:0;
+          margin: 0 0 0 4rem;
+          p {
+            margin:0 0 1rem 0;
+          }
+        }
+      }
+    }
+  }
+  &.academic {
+    background:#ffffff;
+    font-family: serif;
+    padding: 2em 2em 2em 2em;
+    dl {
+      dt {
+        margin-top:1em;
+        font-family: monospace;
+      }
+      dd {
+        margin-top:0.5em;
+      }
+    }
+  }
+}
+
+nav {
+  text-align: center;
+  ul {
+    margin:1rem auto;
+    padding: 0;
+    list-style: none;
+    li {
+      padding:0;
+      margin:0.05rem;
+      display: inline-block;
+      line-height:2.5rem;
+      a {
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        border:2px solid #000;
+        color:#fff;
+        background-color: #666;
+        text-decoration: none;
+        &:hover {
+          background-color:black;
+          box-shadow: 0px 0px 0.35em red;
+        }
+      }
+    }
+  }
+}
+
+.char-index {
+  margin:0 0 2em 0;
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+  ul {
+    list-style:none;
+    padding:0;
+  }
+}
+.char-card{
+  margin:0 0 2rem 0;
+  border:1px solid #cccccc;
+  background-color:#eeeeee;
+  .char-box{
+    width:100%;
+    margin: 0;
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    h3 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      color:#fff;
+      background:#666;
+      padding:0.5rem 1rem;
+      margin:0;
+    }
+    .headshot {
+      width:100%;
+      margin:0;
+      grid-column-start:2;
+    }
+    .char-desc {
+      padding:1rem;
+      grid-column-start:1;
+      grid-row-start:2;
+      margin-right:1rem;
+    }
+  }
+}
+
+footer {
+  background-image:url(../img/background-metal.jpg);
+  background-size:cover;
+  background-position:bottom right;
+  padding: 1rem 1rem 4rem 1rem;
+  .copyright-notice{
+    max-width: 40rem;
+    margin:3rem auto;
+    background:rgba(255, 255, 255, 0.5);
+    padding:1rem;
+    border-radius:0.5rem;
+  }
+}
+.container-error {
+  text-align:center;
+  h2 {
+    font-size:4em;
+    margin:0.5rem auto;
+  }
+  p {
+    font-size:2em;
+  }
+  img {
+    max-width:25%;
+    margin: 1rem auto;
+  }
+}
+
