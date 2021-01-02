@@ -6,5 +6,5 @@ layout: plain
 
 ### by Richard G. Epstein
 
-![Silicon Techtronics HQ]({{site.baseurl}}/img/silicon-techtronics-hq.jpg)
+[![Silicon Techtronics HQ]({{site.baseurl}}/img/silicon-techtronics-hq.jpg)](killer-intro)
 
