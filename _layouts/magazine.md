@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="newspaper">
+<article class="newspaper document">
   <div class="masthead-sunday"></div>
   <div class="main magazine">
     {{ content }}
