@@ -402,7 +402,7 @@ guilty party in this unfortunate fiasco.
 
 5. <a id="ref-5"></a> 
   _Robbie CX30 INTELLIGENT INDUSTRIAL ROBOT REQUIREMENTS DOCUMENT_: Cybernetics
-  Inc. Version, Technical Document Number 91-0023XA, Silicon Techntronics
+  Inc. Version, Technical Document Number 91-0023XA, Silicon Techtronics
   Corporation, Silicon Valley, USA, 1245 pp.
 
 6. <a id="ref-6"></a>

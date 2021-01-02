@@ -24,7 +24,7 @@ to accept criticism, several of his co-workers claimed today.
          alt="Randy Samuels"><img src="{{site.baseurl}}/img/headshot-cx30.jpg"
          alt-="CX30 robot"  class="headshot">
     <figcaption>
-      Randy Matthews (left) programmed the Silicon Techntronics CX30 robot
+      Randy Matthews (left) programmed the Silicon Techtronics CX30 robot
       that malfunctioned and killed worker Bart Matthews at the
       Cybernetics, Inc facility.
     </figcaption>

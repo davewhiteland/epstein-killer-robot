@@ -20,7 +20,7 @@ death of Bart Matthews, who was killed last May by an assembly line robot.
          alt-="CX30 robot" class="headshot">
     <figcaption>
       Bart Matthews was killed whilst working at Cybernetics, Inc
-      when the Silicon Techntronics CX30 robot malfunctioned.
+      when the Silicon Techtronics CX30 robot malfunctioned.
     </figcaption>
 </figure>
 
