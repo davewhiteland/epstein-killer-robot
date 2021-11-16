@@ -94,7 +94,7 @@ title: Characters
 </div>
 
 <div class="char-card">
-  <div class="char-box">
+  <div class="char-box" id="henderson">
     <h3>Sandra Henderson</h3>
     <img class="headshot" alt="" src="{{ site.baseurl }}/img/headshot-henderson.jpg"/>
     <div class="char-desc">
@@ -266,7 +266,7 @@ title: Characters
 </div>
 
 <div class="char-card">
-  <div class="char-box">
+  <div class="char-box" id="worthington">
     <h3>Max Worthington</h3>
     <img class="headshot" alt="" src="{{ site.baseurl }}/img/headshot-worthington.jpg"/>
     <div class="char-desc">
